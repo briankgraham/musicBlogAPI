@@ -1,0 +1,22 @@
+{
+  "name": "musicBlogzRkewl",
+  "version": "0.0.1",
+  "description": "blog aggregator",
+  "main": "shortly.js",
+  "repository": "",
+  "license": "Proprietary",
+  "private": true,
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "bluebird": "1.0.8",
+    "body-parser": "^1.5.2",
+    "bookshelf": "~0.6.4",
+    "express": "^4.0.0",
+    "express-session": "^1.11.3",
+    "forever": "^0.10.11",
+    "knex": "~0.5.7",
+    "nodemon": "^1.2.1",
+    "request": "^2.34.0",
+    "sqlite3": "~3.0.5"
+  }
+}

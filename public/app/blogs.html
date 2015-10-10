@@ -1,0 +1,11 @@
+  <input ng-model="search.artist" placeholder="filter by artist"/>
+</div>
+<a href="/logout">Log/Out</a>
+<a href="/#/signin">Sign/In</a>
+    <ul ng-controller="grabData">
+      <li class="link" ng-repeat="link in links.data | filter:search | orderBy:'-loved_count'">
+        <img src="{{link.thumb_url}}"/><div class="bold">{{link.artist}}</div><a href="{{link.posturl}}">{{link.title}}</a>
+        <div class="bold">Hearts: {{link.loved_count}}</div>
+        <p>{{link.description}}...</p>
+      </li>
+    </ul>

@@ -1,0 +1,39 @@
+body{
+  font-family: 'Quicksand', bold;
+  padding: 0 50px 50px 50px;
+  margin-right: 125px;
+  background-color: #f4f4f4;
+}
+img{
+  padding-right: 10px;
+}
+a{
+  text-decoration: none;
+}
+input{
+  border-radius:4px;
+  width:430px;
+  height:30px;
+  font-size: 20px;
+  text-align: center;
+}
+ul{
+  padding-top: 50px;
+}
+li{
+  list-style-type: none;
+  font-size: 20px;
+}
+li:hover{
+  background-color: lightblue;
+}
+.bold{
+  font-weight: bold;
+}
+.title{
+  font-size: 50px;
+  font-style: italic;
+}
+.containr{
+  margin-left:50px;
+}
